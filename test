@@ -1,3 +1,2 @@
 wait(game:IsLoaded())
-qteleport = queue_on_teleport or queueonteleport
-game.Players.LocalPlayer.OnTeleport:Connect(function(State) qteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/iZqme/test2/refs/heads/main/test2'))()") end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/iZqme/test2/refs/heads/main/test2'))()
